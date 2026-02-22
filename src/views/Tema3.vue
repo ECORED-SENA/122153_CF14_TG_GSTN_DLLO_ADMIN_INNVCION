@@ -7,118 +7,141 @@
         span 3
       h1 Tabulación y análisis de datos
 
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-4
-
-          figure
-            img(src='@/assets/curso/temas/tema3/img-1.svg')
-
-      .col-md-6.col-lg-8
-        p.mb-5 Una vez verificada la información recolectada, es necesario ubicarla de acuerdo a las variables cuantitativas discretas o continuas, o las variables cualitativas nominales u ordinales, a su vez teniendo en cuenta el tipo de investigación determinado, como también los parámetros estadísticos definidos para comprender la información de los datos recolectados; es necesario organizarlos y presentarlos en tablas y gráficos, por ello es importante seleccionar un conjunto de características, es decir, las variables que determinan el instrumento, las cuales deben ser objetivas, integrales y que soporten al análisis de información requerido.
+    .row.justify-content-center
+      .col-md-8.col-lg-4.mb-3.mb-lg-0
+        img(src='@/assets/curso/temas/tema3/img-1.svg')
+      .col-lg-8
+        p Una vez verificada la información recolectada, es necesario ubicarla de acuerdo a las variables cuantitativas discretas o continuas, o las variables cualitativas nominales u ordinales, a su vez teniendo en cuenta el tipo de investigación determinado, como también los parámetros estadísticos definidos para comprender la información de los datos recolectados; es necesario organizarlos y presentarlos en tablas y gráficos, por ello es importante seleccionar un conjunto de características, es decir, las variables que determinan el instrumento, las cuales deben ser objetivas, integrales y que soporten al análisis de información requerido.
 
 
     Separador   
-
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Variables y frecuencias
-    p.mb-3 Como lo describimos anteriormente, las variables están determinadas como:
-
-    ul.lista-ul--color.nar
+    
+    p Como lo describimos anteriormente, las variables están determinadas como:
+    ul.lista-ul--color.nar.fa-lista.mb-4
       li 
         i.fas.fa-check
-        p.mb-0
+        span.mb-0
           b Variables cuantitativas:
           |  son las que integran argumentos numéricos, pueden ser discretas o continuas.
       li 
         i.fas.fa-check
-        p.mb-0
+        span.mb-0
           b Variables cualitativas:
           | integran características o cualidades, y se subdividen en nominales y ordinales.
 
-    p.mb-5 Conozcamos más sobre cada una de ellas:
+    p.mb-4 Conozcamos más sobre cada una de ellas:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema3/img-2-.svg')
 
           .tarjeta.color-secundario.fnd-4-.p-3(x="5.4%" y="48.2%" numero="+")
-            p.px-4 Se pueden expresar mediante un número y, además, se pueden realizar operaciones con ellas, como sumar o restar.
+            p.px-4.mb-0 Se pueden expresar mediante un número y, además, se pueden realizar operaciones con ellas, como sumar o restar.
           .tarjeta.color-secundario.fnd-4-.p-3(x="32.2%" y="70.4%" numero="+")
-            p.px-4 Es la que toma un número finito de valores, o sea, los valores que puede tomar esta variable se pueden contar. Por ejemplo, tenemos la edad, si le preguntamos a alguien, cuál es su edad, me va a decir 15, 16, 25, se puede contar el número de respuestas diferentes. 
+            p.px-4.mb-0 Es la que toma un número finito de valores, o sea, los valores que puede tomar esta variable se pueden contar. Por ejemplo, tenemos la edad, si le preguntamos a alguien, cuál es su edad, me va a decir 15, 16, 25, se puede contar el número de respuestas diferentes. 
           .tarjeta.color-secundario.fnd-4-.p-3(x="32.2%" y="95.6%" numero="+")
-            p.px-4 Es la que toma un número infinito de valores o posibles respuestas, o sea, hay muchos valores diferentes que puede tomar esta variable. Por ejemplo, el peso de un balón, no siempre ese peso va a ser igual, Hay muchas cantidades de respuestas dependiendo de la exactitud.
+            p.px-4.mb-0 Es la que toma un número infinito de valores o posibles respuestas, o sea, hay muchos valores diferentes que puede tomar esta variable. Por ejemplo, el peso de un balón, no siempre ese peso va a ser igual, Hay muchas cantidades de respuestas dependiendo de la exactitud.
           .tarjeta.color-secundario.fnd-4-.p-3(x="94.6%" y="48.2%" numero="+")
-            p.px-4 Se refieren a características o cualidades que no pueden ser medidas con números. Cuando se realice una estadística, y las respuestas no sean con números, esas variables van a ser cualitativas.
+            p.px-4.mb-0 Se refieren a características o cualidades que no pueden ser medidas con números. Cuando se realice una estadística, y las respuestas no sean con números, esas variables van a ser cualitativas.
           .tarjeta.color-secundario.fnd-4-.p-3(x="67.6%" y="70.4%" numero="+")
-            p.px-4 No admiten un orden. Hay cualidades que no necesariamente se pueden ordenar, por ejemplo, el color preferido, alguien puede responder, azul, rojo, verde y no se pueden o no admiten un orden, no podemos decir que un color va primero que otro.
+            p.px-4.mb-0 No admiten un orden. Hay cualidades que no necesariamente se pueden ordenar, por ejemplo, el color preferido, alguien puede responder, azul, rojo, verde y no se pueden o no admiten un orden, no podemos decir que un color va primero que otro.
           .tarjeta.color-secundario.fnd-4-.p-3(x="67.6%" y="95.6%" numero="+")
-            p.px-4 Son las que sí se pueden ordenar. Por ejemplo, las notas de un examen (excelente, sobresaliente, deficiente), se pueden ordenar de las mejores a las peores, o de las más altas a las más bajas.
+            p.px-4.mb-0 Son las que sí se pueden ordenar. Por ejemplo, las notas de un examen (excelente, sobresaliente, deficiente), se pueden ordenar de las mejores a las peores, o de las más altas a las más bajas.
 
     p.mb-5 Por otra parte, la medición de los datos obtenidos, la organización y tabulación, son primordiales para la interpretación estadística, para ello la repetición de los datos se miden por frecuencias, las cuales de manera general se deben organizar de acuerdo con la cantidad de datos.
-    p.mb-5 A continuación, se exponen las características para la tabulación de los datos bajo el esquema de frecuencias:           
+    
+    p.mb-4 A continuación, se exponen las características para la tabulación de los datos bajo el esquema de frecuencias:           
 
-    .row.mb-5.justify-content-center
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+    .row.mb-4.justify-content-center
+      .col-md-6.col-lg-4.mb-4.mb-lg-0.row2
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='')
           .ini.fnd-6.color-primario.b-r-i
-            .p-4.mt-3
-              h2.text-center Datos
-              p.text-center Información recopilada la cual debe ser organizada en una variable.
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+            .p-4
+              h4.text-center Datos
+              p.text-center.mb-0 Información recopilada la cual debe ser organizada en una variable.
+      .col-md-6.col-lg-4.mb-4.mb-lg-0.row2
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='')
           .ini.fnd-6-.color-primario
-            .p-4.mt-3
-              h2.text-center Frecuencia absoluta
-              p.text-center Cantidad de veces que se repite el dato. 
-      .col-md-6.col-lg-4.mb-5.mb-lg-0.row2
+            .p-4
+              h4.text-center Frecuencia absoluta
+              p.text-center.mb-0 Cantidad de veces que se repite el dato. 
+      .col-md-6.col-lg-4.mb-4.mb-lg-0.row2
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema3/img-3.svg' alt='')
           .ini.fnd-6.color-primario.b-r-d  
-            .p-4.mt-3
-              h2.text-center Frecuencia relativa
-              p.text-center Se obtiene de la división del número de la frecuencia absoluta de una variable y la cantidad total de los datos. 
-    .row.justify-content-center.align-items-center.mb-5
+            .p-4
+              h4.text-center Frecuencia relativa
+              p.text-center.mb-0 Se obtiene de la división del número de la frecuencia absoluta de una variable y la cantidad total de los datos. 
+    .row.justify-content-center.align-items-center
       .col-lg-8
         .row
           .col-md-6.col-lg-6.mb-5.mb-lg-0.row2
             .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img-3.svg' alt='')
               .ini.fnd-6-.color-primario.b-r-i
-                .p-4.mt-3
-                  h2.text-center Frecuencia absoluta acumulada
-                  p.text-center Se refiere a la acumulación de las variables de la frecuencia absoluta. 
+                .p-4
+                  h4.text-center Frecuencia absoluta acumulada
+                  p.text-center.mb-0 Se refiere a la acumulación de las variables de la frecuencia absoluta. 
           .col-md-6.col-lg-6.mb-5.mb-lg-0.row2
             .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img-3.svg' alt='')
               .ini.fnd-6.color-primario.b-r-d
-                .p-4.mt-3
-                  h2.text-center Porcentaje
-                  p.text-center Se obtiene al multiplicar la frecuencia relativa de cada variable por 100 y como observación particular el resultado total debe dar 100 %.
-    br
+                .p-4
+                  h4.text-center Porcentaje
+                  p.text-center.mb-0 Se obtiene al multiplicar la frecuencia relativa de cada variable por 100 y como observación particular el resultado total debe dar 100 %.
 
-    p.mb-5 Para ilustrar mejor el correcto diligenciamiento de una tabla de frecuencia, se expone el siguiente ejemplo: 
-    p.mb-5 Se realiza una encuesta, con el objetivo de realizar un primer diagnóstico para la creación de un nuevo centro comercial. Se consulta un total de 25 personas, las cuales viven en un rango de distancia entre 8 a 10 kilómetros del centro comercial más cercano, preguntado por la cantidad de veces que han ido al centro comercial más cercano, durante los últimos 30 días, obteniendo los resultados expuestos en la Tabla 1:
+    p Para ilustrar mejor el correcto diligenciamiento de una tabla de frecuencia, se expone el siguiente ejemplo: 
+    p.mb-4 Se realiza una encuesta, con el objetivo de realizar un primer diagnóstico para la creación de un nuevo centro comercial. Se consulta un total de 25 personas, las cuales viven en un rango de distancia entre 8 a 10 kilómetros del centro comercial más cercano, preguntado por la cantidad de veces que han ido al centro comercial más cercano, durante los últimos 30 días, obteniendo los resultados expuestos en la Tabla 1:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 1
-          p <em> Cantidad de veces que cada persona fue al centro comercial </em>
+          p.mb-0 #[b Tabla 1.] Cantidad de veces que cada persona fue al centro comercial
+      .col-lg-9
+        .tabla-b.color-acento-contenido
+          table
+            tr
+              td 2
+              td 3
+              td 0
+              td 1
+              td 5
+            tr
+              td 3
+              td 2
+              td 3
+              td 0
+              td 0
+            tr
+              td 2
+              td 1
+              td 2
+              td 1
+              td 0
+            tr
+              td 2
+              td 1
+              td 1
+              td 1
+              td 3
+            tr
+              td 4
+              td 0
+              td 0
+              td 2
+              td 1
 
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos='fade-right')
+      p.mb-0 #[b Tabla 2.] Tabla de frecuencia simple
 
-        figure
-            img(src='@/assets/curso/temas/tema3/img-4.svg')
-
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos='fade-right')
-          h5 Tabla 2
-          p <em>Tabla de frecuencia simple </em>
-
-    .tabla-a.mb-5 
-      table.mb-5
+    .tabla-a.mb-4 
+      table
         thead.fnd-3.b-tb
           tr.text-center
             th.text-center
@@ -199,129 +222,110 @@
               b 100
             td
 
-    .row.justify-content-center.mb-5
-      .col-md-8.col-lg-10
-        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-7
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-primario.p-4.p-md-5.fnd-7
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4
-                p.text-black Tenga en cuenta las siguientes características para validar si está bien creada la tabla:
-
+              p.text-black Tenga en cuenta las siguientes características para validar si está bien creada la tabla:
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4.mb-sm-3
-                ul.lista-ul--color.nar
+                ul.lista-ul--color.nar.fa-lista
                   li 
                     i.fas.fa-check
-                    | 
-                    p En la columna de frecuencia absoluta <em> Fi</em>, debe obtener la cantidad total de los encuestados.
+                    span.mb-0 En la columna de frecuencia absoluta #[em  Fi], debe obtener la cantidad total de los encuestados.
                   li 
                     i.fas.fa-check
-                    | 
-                    p En la columna de frecuencia relativa <em>fr</em>, la suma al final debe estar al 0,99 o al número 1 cerrado, este resultado, le da el parámetro que están bien registrados los datos.
+                    span.mb-0 En la columna de frecuencia relativa #[em fr], la suma al final debe estar al 0,99 o al número 1 cerrado, este resultado, le da el parámetro que están bien registrados los datos.
                   li 
                     i.fas.fa-check
-                    | 
-                    p El resultado de la columna de porcentaje, al final de la sumatoria, ponderará un total de 100.
+                    span.mb-0 El resultado de la columna de porcentaje, al final de la sumatoria, ponderará un total de 100.
                   li 
                     i.fas.fa-check
-                    | 
-                    p Al final de la frecuencia acumulada, se debe obtener el mismo resultado de la sumatoria de la frecuencia absoluta, la cual para este ejercicio, es la cantidad de encuestados.
+                    span.mb-0 Al final de la frecuencia acumulada, se debe obtener el mismo resultado de la sumatoria de la frecuencia absoluta, la cual para este ejercicio, es la cantidad de encuestados.
  
-    Separador   
 
+    Separador   
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Gráficos estadísticos y análisis de datos
-    p.mb-5 Llegamos así a la representación gráfica de la información, la cual juega un papel trascendental en el análisis e interpretación de los datos, por ende, la representación de los datos mediante imágenes coadyuva al lector para la compresión de los resultados.
-    p.mb-5 En ese orden de ideas, se presentan varios tipos de gráficas de acuerdo con su uso:
+    
+    p Llegamos así a la representación gráfica de la información, la cual juega un papel trascendental en el análisis e interpretación de los datos, por ende, la representación de los datos mediante imágenes coadyuva al lector para la compresión de los resultados.
+    p.mb-4 En ese orden de ideas, se presentan varios tipos de gráficas de acuerdo con su uso:
 
-    .row.justify-content-center.mb-5
-      SlyderA.fnd-4.fl-a.p-5(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Histograma
-            p Es una agrupación de datos que sirve para presentar datos cualitativos y cuantitativos. Ayudan a ver el centro, la extensión y la forma de un conjunto de datos.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-5.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Polígono de frecuencias
-            p Es un gráfico que se crea a partir de un histograma de frecuencia. Estos histogramas emplean columnas verticales para reflejar frecuencias, el polígono de frecuencias es realizado uniendo los puntos de mayor altura de estas columnas.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-6.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Diagrama de barras
-            p Es una representación en dos dimensiones de la frecuencia, sea <b>absoluta</b> o <b>relativa</b>, de una variable cuantitativa o cualitativa, pero siempre discreta y distribuida en filas.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-7.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Diagrama circular
-            p Se utiliza para representar la proporción de elementos de cada uno de los valores de la variable.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-8.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Tallo y hoja
-            p Es un semigráfico que permite presentar la distribución de una variable cuantitativa. Consiste en separar cada dato en el último dígito (que se denomina<b> hoja</b>) y las cifras delanteras restantes (que forman el <b>tallo</b>).
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-9.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Diagrama de cajas y bigotes
-            p Es una manera conveniente de mostrar visualmente grupos de datos numéricos a través de sus cuartiles.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-10.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Diagrama de dispersión
-            p Usan una colección de puntos colocados usando coordenadas cartesianas para mostrar valores de dos variables.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-11.svg')
-        .row
-          .col-md-6.mb-4.mb-md-0.p-y-5
-            h3 Pictograma
-            p Son tipos de tablas y gráficos que utilizan íconos e imágenes para representar datos.
-          .col-md-6
-            figure
-              img.img-303(src='@/assets/curso/temas/tema3/img-12.svg')
+    SlyderA.fnd-4.fl-a.p-5.mb-5(tipo="b")
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Histograma
+          p Es una agrupación de datos que sirve para presentar datos cualitativos y cuantitativos. Ayudan a ver el centro, la extensión y la forma de un conjunto de datos.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-5.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Polígono de frecuencias
+          p Es un gráfico que se crea a partir de un histograma de frecuencia. Estos histogramas emplean columnas verticales para reflejar frecuencias, el polígono de frecuencias es realizado uniendo los puntos de mayor altura de estas columnas.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-6.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Diagrama de barras
+          p Es una representación en dos dimensiones de la frecuencia, sea #[b absoluta] o #[b relativa], de una variable cuantitativa o cualitativa, pero siempre discreta y distribuida en filas.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-7.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Diagrama circular
+          p Se utiliza para representar la proporción de elementos de cada uno de los valores de la variable.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-8.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Tallo y hoja
+          p Es un semigráfico que permite presentar la distribución de una variable cuantitativa. Consiste en separar cada dato en el último dígito (que se denomina#[b  hoja]) y las cifras delanteras restantes (que forman el #[b tallo]).
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-9.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Diagrama de cajas y bigotes
+          p Es una manera conveniente de mostrar visualmente grupos de datos numéricos a través de sus cuartiles.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-10.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Diagrama de dispersión
+          p Usan una colección de puntos colocados usando coordenadas cartesianas para mostrar valores de dos variables.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-11.svg')
+      .row
+        .col-md-6.mb-4.mb-md-0.p-y-5
+          h3 Pictograma
+          p Son tipos de tablas y gráficos que utilizan íconos e imágenes para representar datos.
+        .col-md-6
+          img.img-303(src='@/assets/curso/temas/tema3/img-12.svg')
 
-    ul.lista-ul--color.mor
+    ul.lista-ul--color.mor.mb-4
       li 
         i.fas.fa-square
-        | 
-        h3.text-black Análisis de datos 
+        span.mb-0.h3.text-black Análisis de datos 
 
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-4
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-7.col-lg-4.mb-3.mb-lg-0
+        img(src='@/assets/curso/temas/tema3/img-13.svg')
+      .col-lg-8
+        p.mb-0 Tenga en cuenta que para evaluar el resultado de cualquier desempeño, en este caso específico, la medición de indicadores o el comparativo de variables de representaciones gráficas o de las tablas de datos, las cuales se han obtenido producto de una información gestionada, se puede dar aplicando los mecanismos y técnicas que conlleven a la interpretación objetiva e integral de los resultados, debiéndose incluir en el análisis, la interpretación de las variables, sus proyecciones o tendencias, las propuestas, las necesidades, la pertinencia, entre muchas otras, emitiendo un concepto completo de la información. 
 
-          figure
-            img(src='@/assets/curso/temas/tema3/img-13.svg')
+    p.mb-4 Los siguientes elementos le permitirán potenciar el análisis de la información:
 
-      .col-md-6.col-lg-8
-        p.mb-5 Tenga en cuenta que para evaluar el resultado de cualquier desempeño, en este caso específico, la medición de indicadores o el comparativo de variables de representaciones gráficas o de las tablas de datos, las cuales se han obtenido producto de una información gestionada, se puede dar aplicando los mecanismos y técnicas que conlleven a la interpretación objetiva e integral de los resultados, debiéndose incluir en el análisis, la interpretación de las variables, sus proyecciones o tendencias, las propuestas, las necesidades, la pertinencia, entre muchas otras, emitiendo un concepto completo de la información. 
-
-
-    p.mb-5 Los siguientes elementos le permitirán potenciar el análisis de la información:
-
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start
       .col-lg-8
         TabsA.color-acento-contenido.grs
-          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Comunicación <br>correcta de los<br> resultados")
+          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Comunicación correcta de los resultados")
             p En los análisis de resultados, el determinante es saber mostrar la información, para lo cual es importante la objetividad, la claridad, la transparencia y la organización de la información.
-          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Calidad de la<br> información")
+          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Calidad de la información")
             p Para un correcto análisis de información es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, y así, partiendo de una planificación correcta en la elaboración del instrumento, se puede obtener información concreta, clara y medible, por lo cual es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
-          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Aplicación de <br>técnicas")
+          .tarjeta.color-acento-botones.fnd-3.p-4(titulo="Aplicación de técnicas")
             p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos, reflejando con el argumento escrito.             
-      .col-lg-4
-        figure
-            img(src='@/assets/curso/temas/tema3/img-14.svg')    
+      .col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img-14.svg')    
 
 
 
