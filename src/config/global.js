@@ -128,43 +128,36 @@ export default {
     {
       tema: 'Estadística',
       referencia:
-        'Sede Manizales UNAL. (2017).  Video Introductorio: <em>Antecedentes de la Estadística</em> (video). YouTube.',
-      tipo: 'Video ',
+        'Sede Manizales UNAL. (2017). Video Introductorio: <em>Antecedentes de la Estadística</em> (video). YouTube.',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-NutZ7n-Exg',
     },
     {
       tema: 'Estadística',
       referencia:
-        'Lifeder Educación. (2020). <em>¿Qué son la población y la muestra?</em> (Con ejemplos) (video). YouTube.',
-      tipo: 'Video ',
-      link: 'https://youtu.be/Q4RZqKLZ8zU  ',
+        'Lifeder Educación. (2020). <em>¿Qué son la población y la muestra?</em> (Con ejemplos) (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/Q4RZqKLZ8zU',
     },
     {
-      tema: 'Estadística ',
+      tema: 'Estadística',
       referencia:
         'fbombab. (2018). <em>Tamaño de muestra paso a paso</em> (video). YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/oc8i9g144Y0',
     },
     {
-      tema: 'Parámetros estadísticos ',
-      referencia:
-        'Math2me Kids. (2021). <em>Medidas de dispersión – datos no agrupados</em> (video). YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/pLPKjLfjRYE ',
-    },
-    {
       tema: 'Parámetros estadísticos',
       referencia:
         'Carreón, D. (2017). <em>Media, moda y mediana Super fácil - Medidas de tendencia central</em>. (video). YouTube.',
-      tipo: 'Video ',
+      tipo: 'Video',
       link: 'https://youtu.be/0DA7Wtz1ddg',
     },
     {
       tema: 'Parámetros estadísticos',
       referencia:
-        'Bioestadistica Odontología UV. (2014). <em> ¿Qué son los Cuantiles?</em> (video). YouTube.',
-      tipo: 'Video ',
+        'Bioestadistica Odontología UV. (2014). <em> ¿Qué son los Cuantiles?</em> (video). YouTube.',
+      tipo: 'Video',
       link: 'https://youtu.be/x9fznavEozk',
     },
 
